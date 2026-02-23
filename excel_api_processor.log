@@ -1,0 +1,184 @@
+2026-02-23 14:36:24,337 - INFO - Excel API 处理器启动
+2026-02-23 14:36:24,337 - INFO - Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 14:36:24,338 - INFO - API地址: http://www.aianquan.com/aiinterface
+2026-02-23 14:36:24,341 - INFO - 输出文件将保存为: D:\002-安全文件\013-AI及安全\testCase-result01.xlsx
+2026-02-23 14:36:24,341 - INFO - ==================================================
+2026-02-23 14:36:24,342 - INFO - 开始Excel API处理流程
+2026-02-23 14:36:24,342 - INFO - ==================================================
+2026-02-23 14:36:24,343 - INFO - 正在读取Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 14:36:25,215 - INFO - 第一列名称: caseName
+2026-02-23 14:36:25,225 - INFO - 成功读取 3 条测试用例
+2026-02-23 14:36:25,233 - INFO - 开始处理 3 条测试用例...
+2026-02-23 14:36:25,241 - ERROR - API调用失败: Missing dependencies for SOCKS support.
+2026-02-23 14:36:27,245 - ERROR - API调用失败: Missing dependencies for SOCKS support.
+2026-02-23 14:36:29,249 - ERROR - API调用失败: Missing dependencies for SOCKS support.
+2026-02-23 14:36:29,753 - ERROR - API调用失败: Missing dependencies for SOCKS support.
+2026-02-23 14:36:31,755 - ERROR - API调用失败: Missing dependencies for SOCKS support.
+2026-02-23 14:36:33,758 - ERROR - API调用失败: Missing dependencies for SOCKS support.
+2026-02-23 14:36:34,259 - INFO - 进度: 3/3 (100.0%)
+2026-02-23 14:36:34,264 - ERROR - API调用失败: Missing dependencies for SOCKS support.
+2026-02-23 14:36:36,267 - ERROR - API调用失败: Missing dependencies for SOCKS support.
+2026-02-23 14:36:38,270 - ERROR - API调用失败: Missing dependencies for SOCKS support.
+2026-02-23 14:36:38,845 - INFO - 处理完成！结果已保存到: D:\002-安全文件\013-AI及安全\testCase-result01.xlsx
+2026-02-23 14:36:38,846 - INFO - ==================================================
+2026-02-23 14:36:38,846 - INFO - 处理统计:
+2026-02-23 14:36:38,847 - INFO -   总测试用例数: 3
+2026-02-23 14:36:38,847 - INFO -   成功调用API: 0 (0.0%)
+2026-02-23 14:36:38,847 - INFO -   True结果: 0 (0.0%)
+2026-02-23 14:36:38,847 - INFO -   False结果: 0 (0.0%)
+2026-02-23 14:36:38,848 - INFO -   失败/无效: 3 (100.0%)
+2026-02-23 14:36:38,848 - INFO - ==================================================
+2026-02-23 14:36:38,849 - INFO - 处理成功完成！
+2026-02-23 16:38:47,829 - INFO - Excel DeepSeek 处理器启动
+2026-02-23 16:38:47,831 - INFO - Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 16:38:49,076 - INFO - ==================================================
+2026-02-23 16:38:49,076 - INFO - 开始Excel DeepSeek处理流程
+2026-02-23 16:38:49,077 - INFO - ==================================================
+2026-02-23 16:38:49,077 - INFO - 正在读取Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 16:38:49,650 - INFO - 成功读取 4 条输入和 4 条参考
+2026-02-23 16:38:49,651 - INFO - 开始处理 4 条测试用例...
+2026-02-23 16:38:50,476 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-02-23 16:38:50,478 - ERROR - DeepSeek API调用失败: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****0ef4 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-02-23 16:38:50,479 - ERROR - 第一次调用失败 (行1): Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****0ef4 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-02-23 16:38:50,481 - ERROR - 处理过程中出现未预期错误: Invalid value '无参考' for dtype 'float64'
+2026-02-23 16:40:13,519 - INFO - Excel DeepSeek 处理器启动
+2026-02-23 16:40:13,519 - INFO - Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 16:40:14,681 - INFO - ==================================================
+2026-02-23 16:40:14,681 - INFO - 开始Excel DeepSeek处理流程
+2026-02-23 16:40:14,682 - INFO - ==================================================
+2026-02-23 16:40:14,682 - INFO - 正在读取Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 16:40:15,227 - INFO - 成功读取 4 条输入和 4 条参考
+2026-02-23 16:40:15,228 - INFO - 开始处理 4 条测试用例...
+2026-02-23 16:40:16,154 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 16:40:18,114 - ERROR - 处理过程中出现未预期错误: Invalid value '无参考' for dtype 'float64'
+2026-02-23 16:46:23,644 - INFO - Excel DeepSeek 处理器启动
+2026-02-23 16:46:23,645 - INFO - Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 16:46:24,830 - INFO - ==================================================
+2026-02-23 16:46:24,831 - INFO - 开始Excel DeepSeek处理流程
+2026-02-23 16:46:24,831 - INFO - ==================================================
+2026-02-23 16:46:24,832 - INFO - 正在读取Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 16:46:25,358 - INFO - 成功读取 4 条输入和 4 条参考
+2026-02-23 16:46:25,359 - INFO - 开始处理 4 条测试用例...
+2026-02-23 16:46:26,287 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 16:46:29,108 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 16:46:31,776 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 16:46:34,299 - INFO - 进度: 4/4 (100.0%)
+2026-02-23 16:46:34,391 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 16:46:38,808 - INFO - 处理完成！结果已保存到原文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 16:46:38,810 - INFO - ==================================================
+2026-02-23 16:46:38,810 - INFO - 处理统计:
+2026-02-23 16:46:38,811 - INFO -   总测试用例数: 4
+2026-02-23 16:46:38,811 - INFO -   通过: 0 (0.0%)
+2026-02-23 16:46:38,812 - INFO -   不通过: 0 (0.0%)
+2026-02-23 16:46:38,812 - INFO -   无参考: 4 (100.0%)
+2026-02-23 16:46:38,813 - INFO -   调用失败: 0 (0.0%)
+2026-02-23 16:46:38,813 - INFO -   其他: 0 (0.0%)
+2026-02-23 16:46:38,813 - INFO - ==================================================
+2026-02-23 16:46:38,814 - INFO - 处理成功完成！
+2026-02-23 16:58:42,328 - INFO - Excel DeepSeek 处理器启动
+2026-02-23 16:58:42,329 - INFO - Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 16:58:43,491 - INFO - ==================================================
+2026-02-23 16:58:43,492 - INFO - 开始Excel DeepSeek处理流程
+2026-02-23 16:58:43,492 - INFO - ==================================================
+2026-02-23 16:58:43,493 - INFO - 正在读取Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 16:58:44,021 - INFO - 成功读取 4 条输入和 4 条参考
+2026-02-23 16:58:44,050 - INFO - 添加列: 列5
+2026-02-23 16:58:44,052 - INFO - 开始处理 4 条测试用例...
+2026-02-23 16:58:44,953 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 16:58:46,819 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 16:58:49,008 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 16:58:50,542 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 16:58:52,295 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 16:58:54,194 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 16:58:55,974 - INFO - 进度: 4/4 (100.0%)
+2026-02-23 16:58:56,031 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 16:58:58,162 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 16:58:59,698 - INFO - 处理完成！结果已保存到原文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 16:58:59,699 - INFO - ==================================================
+2026-02-23 16:58:59,699 - INFO - 处理统计:
+2026-02-23 16:58:59,700 - INFO -   总测试用例数: 4
+2026-02-23 16:58:59,700 - INFO -   通过: 4 (100.0%)
+2026-02-23 16:58:59,701 - INFO -   不通过: 0 (0.0%)
+2026-02-23 16:58:59,701 - INFO -   调用失败: 0 (0.0%)
+2026-02-23 16:58:59,701 - INFO -   其他: 0 (0.0%)
+2026-02-23 16:58:59,702 - INFO - ==================================================
+2026-02-23 16:58:59,702 - INFO - 处理成功完成！
+2026-02-23 17:03:35,067 - INFO - Excel DeepSeek 处理器启动
+2026-02-23 17:03:35,068 - INFO - Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 17:03:36,255 - INFO - ==================================================
+2026-02-23 17:03:36,256 - INFO - 开始Excel DeepSeek处理流程
+2026-02-23 17:03:36,256 - INFO - ==================================================
+2026-02-23 17:03:36,256 - INFO - 正在读取Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 17:03:36,802 - INFO - 成功读取 4 条输入和 4 条参考
+2026-02-23 17:03:36,803 - INFO - 开始处理 4 条测试用例...
+2026-02-23 17:03:37,713 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:03:39,770 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:03:41,788 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:03:43,904 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:03:46,133 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:03:48,151 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:03:50,418 - INFO - 进度: 4/4 (100.0%)
+2026-02-23 17:03:50,481 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:03:53,748 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:03:56,030 - ERROR - 保存结果文件失败: [Errno 13] Permission denied: 'D:\\002-安全文件\\013-AI及安全\\testCase.xlsx'
+2026-02-23 17:03:56,031 - ERROR - 处理过程中出现错误
+2026-02-23 17:04:19,647 - INFO - Excel DeepSeek 处理器启动
+2026-02-23 17:04:19,648 - INFO - Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 17:04:20,819 - INFO - ==================================================
+2026-02-23 17:04:20,820 - INFO - 开始Excel DeepSeek处理流程
+2026-02-23 17:04:20,820 - INFO - ==================================================
+2026-02-23 17:04:20,821 - INFO - 正在读取Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 17:04:21,351 - INFO - 成功读取 4 条输入和 4 条参考
+2026-02-23 17:04:21,353 - INFO - 开始处理 4 条测试用例...
+2026-02-23 17:04:22,226 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:04:24,334 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:04:26,639 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:04:28,758 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:04:31,330 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:04:33,264 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:04:35,164 - INFO - 进度: 4/4 (100.0%)
+2026-02-23 17:04:35,339 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:04:38,429 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:04:40,694 - INFO - 处理完成！结果已保存到原文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 17:04:40,696 - INFO - ==================================================
+2026-02-23 17:04:40,696 - INFO - 处理统计:
+2026-02-23 17:04:40,696 - INFO -   总测试用例数: 4
+2026-02-23 17:04:40,697 - INFO -   通过: 4 (100.0%)
+2026-02-23 17:04:40,697 - INFO -   不通过: 0 (0.0%)
+2026-02-23 17:04:40,697 - INFO -   调用失败: 0 (0.0%)
+2026-02-23 17:04:40,698 - INFO -   其他: 0 (0.0%)
+2026-02-23 17:04:40,698 - INFO - ==================================================
+2026-02-23 17:04:40,698 - INFO - 处理成功完成！
+2026-02-23 17:25:46,530 - INFO - Excel DeepSeek 处理器启动
+2026-02-23 17:25:46,531 - INFO - Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 17:25:46,533 - ERROR - 处理过程中出现未预期错误: Unknown scheme for proxy URL URL('socks4://127.0.0.1:1080')
+2026-02-23 17:26:30,769 - INFO - Excel DeepSeek 处理器启动
+2026-02-23 17:26:30,770 - INFO - Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 17:26:30,771 - ERROR - 处理过程中出现未预期错误: Unknown scheme for proxy URL URL('socks4://127.0.0.1:1080')
+2026-02-23 17:27:18,642 - INFO - Excel DeepSeek 处理器启动
+2026-02-23 17:27:18,643 - INFO - Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 17:27:19,809 - INFO - ==================================================
+2026-02-23 17:27:19,810 - INFO - 开始Excel DeepSeek处理流程
+2026-02-23 17:27:19,811 - INFO - ==================================================
+2026-02-23 17:27:19,812 - INFO - 正在读取Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 17:27:20,344 - INFO - 成功读取 4 条输入和 4 条参考
+2026-02-23 17:27:20,346 - INFO - 开始处理 4 条测试用例...
+2026-02-23 17:27:21,250 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:27:23,499 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:27:25,731 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:27:27,185 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:27:29,201 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:27:30,971 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:27:33,137 - INFO - 进度: 4/4 (100.0%)
+2026-02-23 17:27:33,201 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:27:35,815 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 17:27:37,581 - INFO - 处理完成！结果已保存到原文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 17:27:37,582 - INFO - ==================================================
+2026-02-23 17:27:37,583 - INFO - 处理统计:
+2026-02-23 17:27:37,583 - INFO -   总测试用例数: 4
+2026-02-23 17:27:37,584 - INFO -   通过: 4 (100.0%)
+2026-02-23 17:27:37,584 - INFO -   不通过: 0 (0.0%)
+2026-02-23 17:27:37,584 - INFO -   调用失败: 0 (0.0%)
+2026-02-23 17:27:37,585 - INFO -   其他: 0 (0.0%)
+2026-02-23 17:27:37,585 - INFO - ==================================================
+2026-02-23 17:27:37,585 - INFO - 处理成功完成！
