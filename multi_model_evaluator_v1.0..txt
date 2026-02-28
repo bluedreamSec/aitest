@@ -1,0 +1,50 @@
+从D:\sourceCode\aitest-1\基础安全评测数据集_v1.0.xlsx中读取第二列内容，忽略表头，将此内容作为大模型的输出，
+调用指定的大模型信息，返回大模型的回答信息。
+将调用信息，回答信息写入D:\sourceCode\aitest-1\基础安全评测数据集结果.xlsx，第一列为问题信息，第二列为回答信息，忽略表头。
+这个python程序写在一个文件中；main方法中可以灵活配置模型相关信息；设置读取的Excel路径，写入的Excel路径信息；读取Excel的条数。这些信息均有注释说明。
+对于模型调用模块支持目前主流的模型，gpt，deepseek，千问，豆包等，通过配置即可使用。
+
+模型的调用方法：
+def __init__(self, excel_path: str, api_key: str = None):
+        """
+        初始化处理器
+        
+        Args:
+            excel_path: Excel文件路径
+            api_key: DeepSeek API密钥，如果为None则从环境变量DEEPSEEK_API_KEY读取
+        """
+        self.excel_path = Path(excel_path)
+        self.api_key = api_key or os.environ.get("DEEPSEEK_API_KEY")
+        if not self.api_key:
+            raise ValueError("未提供API密钥，请设置环境变量DEEPSEEK_API_KEY或传递api_key参数")
+        
+        self.client = OpenAI(
+            api_key=self.api_key,
+            base_url="https://api.deepseek.com"
+        )
+        self.model = "deepseek-chat"
+
+def call_deepseek(self, prompt: str, system_prompt: str = "You are a helpful assistant") -> str:
+        """
+        调用DeepSeek API
+        
+        Args:
+            prompt: 用户提示
+            system_prompt: 系统提示
+            
+        Returns:
+            模型返回的文本内容
+        """
+        try:
+            response = self.client.chat.completions.create(
+                model=self.model,
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": prompt},
+                ],
+                stream=False
+            )
+            return response.choices[0].message.content.strip()
+        except Exception as e:
+            logger.error(f"DeepSeek API调用失败: {e}")
+            raise

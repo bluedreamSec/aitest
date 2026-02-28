@@ -1,0 +1,153 @@
+2026-02-28 16:32:09,738 - INFO - 从 test_input.xlsx 读取了 2 条问题
+2026-02-28 16:32:09,746 - INFO - 从 test_input.xlsx 读取了 2 条问题
+2026-02-28 16:32:09,746 - INFO - 处理进度: 1/2
+2026-02-28 16:32:10,246 - INFO - 处理进度: 2/2
+2026-02-28 16:32:10,781 - INFO - 结果已写入 test_output.xlsx
+2026-02-28 16:38:52,486 - INFO - 从 D:\sourceCode\aitest-1\基础安全评测数据集_v1.0.xlsx 读取了 10 条问题
+2026-02-28 16:38:52,487 - INFO - 处理进度: 1/10
+2026-02-28 16:38:53,630 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:38:58,193 - INFO - 处理进度: 2/10
+2026-02-28 16:38:58,260 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:39:03,294 - INFO - 处理进度: 3/10
+2026-02-28 16:39:03,360 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:39:08,122 - INFO - 处理进度: 4/10
+2026-02-28 16:39:08,545 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:39:14,637 - INFO - 处理进度: 5/10
+2026-02-28 16:39:14,704 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:39:20,359 - INFO - 处理进度: 6/10
+2026-02-28 16:39:20,418 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:39:34,526 - INFO - 处理进度: 7/10
+2026-02-28 16:39:34,607 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:39:44,527 - INFO - 处理进度: 8/10
+2026-02-28 16:39:44,606 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:39:53,880 - INFO - 处理进度: 9/10
+2026-02-28 16:39:53,944 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:40:21,295 - INFO - 处理进度: 10/10
+2026-02-28 16:40:21,358 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:40:24,022 - INFO - 结果已写入 D:\sourceCode\aitest-1\基础安全评测数据集结果.xlsx
+2026-02-28 16:40:24,023 - INFO - 处理完成！
+2026-02-28 16:47:20,063 - ERROR - 输入文件不存在: D:\sourceCode\aitest-1\越狱攻击评测数据集_v1.0
+2026-02-28 16:48:14,883 - INFO - 从 D:\sourceCode\aitest-1\越狱攻击评测数据集_v1.0.xlsx 读取了 10 条问题
+2026-02-28 16:48:14,884 - INFO - 处理进度: 1/10
+2026-02-28 16:48:15,766 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:48:18,514 - INFO - 处理进度: 2/10
+2026-02-28 16:48:18,578 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:48:21,782 - INFO - 处理进度: 3/10
+2026-02-28 16:48:21,854 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:48:27,085 - INFO - 处理进度: 4/10
+2026-02-28 16:48:27,150 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:48:42,160 - INFO - 处理进度: 5/10
+2026-02-28 16:48:42,225 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:48:46,565 - INFO - 处理进度: 6/10
+2026-02-28 16:48:46,642 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:48:51,277 - INFO - 处理进度: 7/10
+2026-02-28 16:48:51,591 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:48:54,446 - INFO - 处理进度: 8/10
+2026-02-28 16:48:54,558 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:48:58,956 - INFO - 处理进度: 9/10
+2026-02-28 16:48:59,040 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:49:06,735 - INFO - 处理进度: 10/10
+2026-02-28 16:49:06,802 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:49:13,998 - INFO - 结果已写入 D:\sourceCode\aitest-1\越狱攻击评测数据集结果.xlsx
+2026-02-28 16:49:13,999 - INFO - 处理完成！
+2026-02-28 16:51:43,368 - INFO - 从 D:\sourceCode\aitest-1\越狱攻击评测数据集_v1.0.xlsx 读取了 10 条问题
+2026-02-28 16:51:43,369 - INFO - 处理进度: 1/10
+2026-02-28 16:51:44,236 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:51:47,514 - INFO - 处理进度: 2/10
+2026-02-28 16:51:47,658 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:51:51,716 - INFO - 处理进度: 3/10
+2026-02-28 16:51:51,808 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:51:56,838 - INFO - 处理进度: 4/10
+2026-02-28 16:51:56,906 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:52:01,735 - INFO - 处理进度: 5/10
+2026-02-28 16:52:01,797 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:52:04,924 - INFO - 处理进度: 6/10
+2026-02-28 16:52:05,012 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:52:09,039 - INFO - 处理进度: 7/10
+2026-02-28 16:52:09,131 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:52:12,391 - INFO - 处理进度: 8/10
+2026-02-28 16:52:12,456 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:52:14,946 - INFO - 处理进度: 9/10
+2026-02-28 16:52:15,016 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:52:21,606 - INFO - 处理进度: 10/10
+2026-02-28 16:52:21,670 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 16:52:27,360 - INFO - 结果已写入 D:\sourceCode\aitest-1\越狱攻击评测数据集结果.xlsx
+2026-02-28 16:52:27,361 - INFO - 处理完成！
+2026-02-28 17:01:43,631 - INFO - 从 test_input_modified.xlsx 读取了 2 条数据
+2026-02-28 17:01:43,645 - INFO - 从 test_input_modified.xlsx 读取了 2 条数据
+2026-02-28 17:01:43,645 - INFO - 处理进度: 1/2
+2026-02-28 17:01:44,146 - INFO - 处理进度: 2/2
+2026-02-28 17:01:44,695 - INFO - 结果已写入 test_output_modified.xlsx
+2026-02-28 17:03:25,560 - INFO - 从 D:\sourceCode\aitest-1\基础安全评测数据集_v1.0.xlsx 读取了 2 条数据
+2026-02-28 17:03:25,560 - INFO - 处理进度: 1/2
+2026-02-28 17:03:26,060 - INFO - 处理进度: 2/2
+2026-02-28 17:03:26,629 - INFO - 结果已写入 D:\sourceCode\aitest-1\基础安全评测数据集结果_test.xlsx
+2026-02-28 17:04:46,359 - INFO - 从 D:\sourceCode\aitest-1\基础安全评测数据集_v1.0.xlsx 读取了 10 条数据
+2026-02-28 17:04:46,359 - INFO - 处理进度: 1/10
+2026-02-28 17:04:47,364 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:04:51,996 - INFO - 处理进度: 2/10
+2026-02-28 17:04:52,065 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:04:57,003 - INFO - 处理进度: 3/10
+2026-02-28 17:04:57,082 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:05:01,100 - INFO - 处理进度: 4/10
+2026-02-28 17:05:01,178 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:05:11,226 - INFO - 处理进度: 5/10
+2026-02-28 17:05:11,290 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:05:16,664 - INFO - 处理进度: 6/10
+2026-02-28 17:05:16,740 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:05:40,318 - INFO - 处理进度: 7/10
+2026-02-28 17:05:40,422 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:05:48,511 - INFO - 处理进度: 8/10
+2026-02-28 17:05:48,586 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:05:56,146 - INFO - 处理进度: 9/10
+2026-02-28 17:05:56,217 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:06:19,614 - INFO - 处理进度: 10/10
+2026-02-28 17:06:19,701 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:06:24,486 - INFO - 结果已写入 D:\sourceCode\aitest-1\基础安全评测数据集结果.xlsx
+2026-02-28 17:06:24,486 - INFO - 处理完成！
+2026-02-28 17:31:08,729 - INFO - 从 D:\sourceCode\aitest-1\基础安全评测数据集_v1.0.xlsx 读取了 10 条数据
+2026-02-28 17:31:08,730 - INFO - 处理进度: 1/10
+2026-02-28 17:31:09,680 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:31:13,782 - INFO - 处理进度: 2/10
+2026-02-28 17:31:13,867 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:31:18,294 - INFO - 处理进度: 3/10
+2026-02-28 17:31:18,444 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:31:22,255 - INFO - 处理进度: 4/10
+2026-02-28 17:31:22,577 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:31:30,149 - INFO - 处理进度: 5/10
+2026-02-28 17:31:30,212 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:31:35,226 - INFO - 处理进度: 6/10
+2026-02-28 17:31:35,298 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:31:43,592 - INFO - 处理进度: 7/10
+2026-02-28 17:31:43,662 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:31:53,633 - INFO - 处理进度: 8/10
+2026-02-28 17:31:53,730 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:32:00,109 - INFO - 处理进度: 9/10
+2026-02-28 17:32:00,176 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:32:28,400 - INFO - 处理进度: 10/10
+2026-02-28 17:32:28,473 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 17:32:34,962 - INFO - 结果已写入 D:\sourceCode\aitest-1\基础安全评测数据集结果.xlsx
+2026-02-28 17:32:34,973 - INFO - 处理完成！
+2026-02-28 18:47:12,544 - INFO - 从 D:\sourceCode\aitest-1\越狱攻击评测数据集_v1.0.xlsx 读取了 10 条数据
+2026-02-28 18:47:12,545 - INFO - 处理进度: 1/10
+2026-02-28 18:47:13,443 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 18:47:17,063 - INFO - 处理进度: 2/10
+2026-02-28 18:47:17,123 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 18:47:20,215 - INFO - 处理进度: 3/10
+2026-02-28 18:47:20,381 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 18:47:24,465 - INFO - 处理进度: 4/10
+2026-02-28 18:47:24,536 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 18:47:41,138 - INFO - 处理进度: 5/10
+2026-02-28 18:47:41,217 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 18:47:44,380 - INFO - 处理进度: 6/10
+2026-02-28 18:47:44,484 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 18:47:48,229 - INFO - 处理进度: 7/10
+2026-02-28 18:47:48,319 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 18:47:51,028 - INFO - 处理进度: 8/10
+2026-02-28 18:47:51,140 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 18:47:53,421 - INFO - 处理进度: 9/10
+2026-02-28 18:47:53,487 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 18:47:58,888 - INFO - 处理进度: 10/10
+2026-02-28 18:47:58,950 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 18:48:03,919 - INFO - 结果已写入 D:\sourceCode\aitest-1\越狱攻击评测数据集结果.xlsx
+2026-02-28 18:48:03,919 - INFO - 处理完成！
