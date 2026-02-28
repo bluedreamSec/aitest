@@ -2,7 +2,7 @@
 """
 Excel DeepSeek 处理脚本
 读取Excel文件，调用DeepSeek API，将结果写回Excel
-
+"""  """
 功能：
 1. 读取Excel文件（testCase.xlsx）的第一列内容（caseName）作为输入
 2. 第二列为参考内容（caseMsg）

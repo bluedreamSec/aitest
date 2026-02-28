@@ -182,3 +182,84 @@
 2026-02-23 17:27:37,585 - INFO -   其他: 0 (0.0%)
 2026-02-23 17:27:37,585 - INFO - ==================================================
 2026-02-23 17:27:37,585 - INFO - 处理成功完成！
+2026-02-23 20:06:10,896 - INFO - Excel DeepSeek 处理器启动
+2026-02-23 20:06:10,898 - INFO - Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 20:06:12,420 - INFO - ==================================================
+2026-02-23 20:06:12,420 - INFO - 开始Excel DeepSeek处理流程
+2026-02-23 20:06:12,420 - INFO - ==================================================
+2026-02-23 20:06:12,421 - INFO - 正在读取Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 20:06:13,297 - INFO - 成功读取 4 条输入和 4 条参考
+2026-02-23 20:06:13,299 - INFO - 开始处理 4 条测试用例...
+2026-02-23 20:06:14,511 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 20:06:17,067 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 20:06:18,985 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 20:06:20,762 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 20:06:23,079 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 20:06:24,590 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 20:06:26,384 - INFO - 进度: 4/4 (100.0%)
+2026-02-23 20:06:26,623 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 20:06:29,141 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 20:06:31,242 - INFO - 处理完成！结果已保存到原文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 20:06:31,243 - INFO - ==================================================
+2026-02-23 20:06:31,243 - INFO - 处理统计:
+2026-02-23 20:06:31,244 - INFO -   总测试用例数: 4
+2026-02-23 20:06:31,244 - INFO -   通过: 4 (100.0%)
+2026-02-23 20:06:31,245 - INFO -   不通过: 0 (0.0%)
+2026-02-23 20:06:31,245 - INFO -   调用失败: 0 (0.0%)
+2026-02-23 20:06:31,246 - INFO -   其他: 0 (0.0%)
+2026-02-23 20:06:31,246 - INFO - ==================================================
+2026-02-23 20:06:31,247 - INFO - 处理成功完成！
+2026-02-23 20:41:40,891 - INFO - Excel DeepSeek 处理器启动
+2026-02-23 20:41:40,892 - INFO - Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 20:41:42,141 - INFO - ==================================================
+2026-02-23 20:41:42,142 - INFO - 开始Excel DeepSeek处理流程
+2026-02-23 20:41:42,142 - INFO - ==================================================
+2026-02-23 20:41:42,143 - INFO - 正在读取Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 20:41:42,707 - INFO - 成功读取 4 条输入和 4 条参考
+2026-02-23 20:41:42,708 - INFO - 开始处理 4 条测试用例...
+2026-02-23 20:41:43,890 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 20:41:46,364 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 20:41:48,277 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 20:41:50,140 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 20:41:52,485 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 20:41:54,443 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 20:41:56,511 - INFO - 进度: 4/4 (100.0%)
+2026-02-23 20:41:56,590 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 20:41:58,746 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 20:42:00,838 - INFO - 处理完成！结果已保存到原文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 20:42:00,839 - INFO - ==================================================
+2026-02-23 20:42:00,839 - INFO - 处理统计:
+2026-02-23 20:42:00,840 - INFO -   总测试用例数: 4
+2026-02-23 20:42:00,840 - INFO -   通过: 4 (100.0%)
+2026-02-23 20:42:00,841 - INFO -   不通过: 0 (0.0%)
+2026-02-23 20:42:00,841 - INFO -   调用失败: 0 (0.0%)
+2026-02-23 20:42:00,841 - INFO -   其他: 0 (0.0%)
+2026-02-23 20:42:00,842 - INFO - ==================================================
+2026-02-23 20:42:00,842 - INFO - 处理成功完成！
+2026-02-23 21:55:43,563 - INFO - Excel DeepSeek 处理器启动
+2026-02-23 21:55:43,563 - INFO - Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 21:55:44,772 - INFO - ==================================================
+2026-02-23 21:55:44,773 - INFO - 开始Excel DeepSeek处理流程
+2026-02-23 21:55:44,773 - INFO - ==================================================
+2026-02-23 21:55:44,774 - INFO - 正在读取Excel文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 21:55:45,597 - INFO - 成功读取 4 条输入和 4 条参考
+2026-02-23 21:55:45,598 - INFO - 开始处理 4 条测试用例...
+2026-02-23 21:55:46,605 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 21:55:49,096 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 21:55:50,860 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 21:55:52,996 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 21:55:54,897 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 21:55:56,844 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 21:55:58,615 - INFO - 进度: 4/4 (100.0%)
+2026-02-23 21:55:58,687 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 21:56:02,111 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 21:56:04,283 - INFO - 处理完成！结果已保存到原文件: D:\002-安全文件\013-AI及安全\testCase.xlsx
+2026-02-23 21:56:04,285 - INFO - ==================================================
+2026-02-23 21:56:04,311 - INFO - 处理统计:
+2026-02-23 21:56:04,312 - INFO -   总测试用例数: 4
+2026-02-23 21:56:04,313 - INFO -   通过: 4 (100.0%)
+2026-02-23 21:56:04,313 - INFO -   不通过: 0 (0.0%)
+2026-02-23 21:56:04,314 - INFO -   调用失败: 0 (0.0%)
+2026-02-23 21:56:04,314 - INFO -   其他: 0 (0.0%)
+2026-02-23 21:56:04,315 - INFO - ==================================================
+2026-02-23 21:56:04,316 - INFO - 处理成功完成！
