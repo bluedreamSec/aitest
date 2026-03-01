@@ -204,3 +204,53 @@
 2026-02-28 21:17:45,954 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
 2026-02-28 21:17:50,359 - INFO - 处理进度: 26/50
 2026-02-28 21:17:50,429 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:17:54,643 - INFO - 处理进度: 27/50
+2026-02-28 21:17:54,710 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:17:58,058 - INFO - 处理进度: 28/50
+2026-02-28 21:17:58,170 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:18:02,281 - INFO - 处理进度: 29/50
+2026-02-28 21:18:02,344 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:18:06,454 - INFO - 处理进度: 30/50
+2026-02-28 21:18:06,530 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:18:11,087 - INFO - 处理进度: 31/50
+2026-02-28 21:18:11,161 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:18:14,959 - INFO - 处理进度: 32/50
+2026-02-28 21:18:15,029 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:18:18,641 - INFO - 处理进度: 33/50
+2026-02-28 21:18:18,959 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:18:24,888 - INFO - 处理进度: 34/50
+2026-02-28 21:18:24,994 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:18:31,902 - INFO - 处理进度: 35/50
+2026-02-28 21:18:32,271 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:18:37,378 - INFO - 处理进度: 36/50
+2026-02-28 21:18:37,448 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:18:44,344 - INFO - 处理进度: 37/50
+2026-02-28 21:18:44,420 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:18:47,825 - INFO - 处理进度: 38/50
+2026-02-28 21:18:47,901 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:18:52,751 - INFO - 处理进度: 39/50
+2026-02-28 21:18:52,824 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:18:58,372 - INFO - 处理进度: 40/50
+2026-02-28 21:18:58,437 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:19:37,796 - INFO - 处理进度: 41/50
+2026-02-28 21:19:37,868 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:19:41,196 - INFO - 处理进度: 42/50
+2026-02-28 21:19:41,265 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:19:44,252 - INFO - 处理进度: 43/50
+2026-02-28 21:19:44,316 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:19:49,367 - INFO - 处理进度: 44/50
+2026-02-28 21:19:49,424 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:19:57,957 - INFO - 处理进度: 45/50
+2026-02-28 21:19:58,055 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:20:00,630 - INFO - 处理进度: 46/50
+2026-02-28 21:20:00,713 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:20:04,009 - INFO - 处理进度: 47/50
+2026-02-28 21:20:04,079 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:20:06,877 - INFO - 处理进度: 48/50
+2026-02-28 21:20:06,960 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:20:09,189 - INFO - 处理进度: 49/50
+2026-02-28 21:20:09,256 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:20:15,349 - INFO - 处理进度: 50/50
+2026-02-28 21:20:15,413 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-02-28 21:20:20,476 - INFO - 结果已写入 D:\sourceCode\aitest-1\越狱攻击评测数据集结果.xlsx
+2026-02-28 21:20:20,477 - INFO - 处理完成！
