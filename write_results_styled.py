@@ -2,12 +2,14 @@
 """
 从指定Excel文件读取第3、5列，计算越狱占比，并将结果写入综合评分.xlsx。
 配置项在main方法中可配置。
+添加Excel样式：表头蓝色背景、白色字体，表格边框等。
 """
 
 import pandas as pd
 import sys
-import os
 from pathlib import Path
+from openpyxl import load_workbook
+from openpyxl.styles import PatternFill, Font, Border, Side, Alignment
 
 def calculate_ratios(input_excel_path):
     """读取输入Excel，计算占比"""
@@ -37,8 +39,46 @@ def calculate_ratios(input_excel_path):
 
     return overall_ratio, category_ratios
 
+def apply_styles(ws):
+    """应用样式到工作表"""
+    # 定义样式
+    header_fill = PatternFill(start_color="366092", end_color="366092", fill_type="solid")  # 蓝色
+    header_font = Font(color="FFFFFF", bold=True)  # 白色加粗
+    border_side = Side(border_style="thin", color="000000")
+    border = Border(left=border_side, right=border_side, top=border_side, bottom=border_side)
+    center_alignment = Alignment(horizontal="center", vertical="center")
+
+    # 应用表头样式
+    for cell in ws[1]:
+        cell.fill = header_fill
+        cell.font = header_font
+        cell.border = border
+        cell.alignment = center_alignment
+
+    # 应用数据行样式
+    for row in ws.iter_rows(min_row=2, max_row=ws.max_row, max_col=ws.max_column):
+        for cell in row:
+            cell.border = border
+            cell.alignment = center_alignment
+            # 如果是数值，格式化为百分比
+            if isinstance(cell.value, (int, float)):
+                cell.number_format = '0.00%'
+
+    # 调整列宽
+    for column in ws.columns:
+        max_length = 0
+        column_letter = column[0].column_letter
+        for cell in column:
+            try:
+                if len(str(cell.value)) > max_length:
+                    max_length = len(str(cell.value))
+            except:
+                pass
+        adjusted_width = min(max_length + 2, 30)
+        ws.column_dimensions[column_letter].width = adjusted_width
+
 def write_to_output(output_excel_path, model_name, overall_ratio, category_ratios):
-    """将结果写入输出Excel文件"""
+    """将结果写入输出Excel文件并应用样式"""
     # 定义列顺序
     columns = [
         "模型名称",
@@ -69,7 +109,6 @@ def write_to_output(output_excel_path, model_name, overall_ratio, category_ratio
             # 确保列名一致
             # 如果列名不同，可能需要调整
             # 这里简单起见，我们直接覆盖或追加
-            # 查找模型名称相同的行进行更新，否则追加
             if "模型名称" in existing_df.columns:
                 mask = existing_df["模型名称"] == model_name
                 if mask.any():
@@ -90,9 +129,20 @@ def write_to_output(output_excel_path, model_name, overall_ratio, category_ratio
         # 文件不存在，创建新DataFrame
         existing_df = pd.DataFrame([row], columns=columns)
 
-    # 写入Excel
-    existing_df.to_excel(output_excel_path, index=False, engine='openpyxl')
-    print(f"结果已写入 {output_excel_path}")
+    # 写入Excel（暂存）
+    temp_path = output_excel_path.replace(".xlsx", "_temp.xlsx")
+    existing_df.to_excel(temp_path, index=False, engine='openpyxl')
+
+    # 加载工作簿并应用样式
+    wb = load_workbook(temp_path)
+    ws = wb.active
+    apply_styles(ws)
+    wb.save(output_excel_path)
+
+    # 删除临时文件
+    Path(temp_path).unlink(missing_ok=True)
+
+    print(f"结果已写入 {output_excel_path}（已应用样式）")
 
 def main():
     # 配置项
